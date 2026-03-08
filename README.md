@@ -12,6 +12,9 @@ gcc -m32 -no-pie whileLoop.s -o while
 
 # Run
 ./lab5
+
 ./hellowrd
+
 ./hellowrdCpp
+
 ./while
