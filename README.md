@@ -6,7 +6,7 @@ gcc -m32 -no-pie maxVal.s -o lab5
 
 gcc -m32 -no-pie HelloWorld.s -o hellowrd
 
-gcc -m32 -no-pie HelloWorldCpp.s -o hellowrdCpp
+g++ -m32 HelloWorldCpp.s -o HelloWorldCpp
 
 gcc -m32 -no-pie whileLoop.s -o while
 
@@ -15,6 +15,6 @@ gcc -m32 -no-pie whileLoop.s -o while
 
 ./hellowrd
 
-./hellowrdCpp
+./HelloWorldCpp
 
 ./while
